@@ -1,7 +1,8 @@
 /* === FONTS === */
 @import 'fonts';
 
-$ff: '';
+$ff-main: WorkSans;
+$ff-second: Oxanium;
 /* === / FONTS === */
 
 /* === VARIABLES === */
@@ -53,7 +54,7 @@ html,body{
 }
 
 body{
-	font-family: $ff;
+	font-family: $ff-main;
 	color: $color_black;
 	font-size: 16px;
 	font-weight: $fw-regular;
@@ -63,7 +64,7 @@ body{
 	// }
 }
 
-input,button,textarea{font-family: $ff;}
+input,button,textarea{font-family: $ff-main;}
 
 input::-ms-clear{display: none;}
 button{cursor: pointer;}
